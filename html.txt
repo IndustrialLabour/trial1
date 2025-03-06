@@ -1,0 +1,32 @@
+<index>
+<html>
+<head>
+<title> idnltsia blog </title>
+<body>
+<body style="background-image: url('C:\Users\samay\OneDrive\Desktop\blog\DSC00500.JPG'); background-size: cover;">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        .container {
+            position: relative;
+            height: 100vh;
+        }
+        .header, .left, .right, .footer {
+            position: absolute;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .header { top: 0; left: 50%; transform: translateX(-50%); }
+        .left { top: 50%; left: 0; transform: translateY(-50%); }
+        .right { top: 50%; right: 0; transform: translateY(-50%); }
+        .footer { bottom: 0; left: 50%; transform: translateX(-50%); }
+    </style>
+    <div class="container">
+        <div class="header"> blog </div>
+        <div class="left"> pictures </div>
+        <div class="right">art</div>
+       </div>
+</body>
+</html>
+
+
