@@ -5,29 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content=
 "width=device-width, initial-scale=1.0">
-    <title>Fixed Width Wrapper</title>
+        <title>some thoughts</title>
     <style>
-        .wrapper {
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-image: url('blogb.png'); background-position: center center;
+             background-attachment: fixed;
+  position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border: 0;
+   cursor: url('cur.png'), auto;
+  font-family: 'Lato', sans-serif;
+        background-size: cover !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !impoertant;
+        opacity: 0.7; 
+
+            .wrapper {
             width: 1200px;
             margin: 20px;
             padding: 20px;
-            background-color: lightgray;
+            background-color: white;
             display: flex;
     flex-direction: column;
     gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+           
+     .wrapper-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
         }
+.wrapper-meta {
+            font-size: 14px;
+            color: #666;
+           margin-bottom: 50px;;
+        }
+        .wrapper-content {
+            font-size: 16px;
+            color: #444;
+        }
+
     </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <h1>Fixed Width Layout</h1>
-        <p>This wrapper has a fixed width of 1200px.</p>
-    </div>
-     <div class="wrapper">
-        <h1>Fixed Width Layout</h1>
-        <p>This wrapper has a fixed width of 1200px.</p>
-    </div>
+        <div class="wrapper";>
+        <div class="wrapper-title">major life update </div>
+            <div class="wrapper-content">
+            <p>today I woke up 3pm</p>
+        </div>
+   <div class="wrapper";>
+        <div class="wrapper-title">another life update </div>
+            <div class="wrapper-content">
+            <p>why wont this work</p>
+        </div>
 </body>
 
 </html>
