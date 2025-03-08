@@ -33,8 +33,7 @@
             padding: 50px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        .div + div {margin-top:10px;};
-        }
+       
         .blog-title {
             font-size: 24px;
             font-weight: bold;
@@ -43,7 +42,7 @@
         .blog-meta {
             font-size: 14px;
             color: #666;
-            margin-bottom: 20px;
+           margin-bottom: 50px;;
         }
         .blog-content {
             font-size: 16px;
@@ -54,22 +53,15 @@
 <body>
     <div class="blog-container";>
         <div class="blog-title">major life update </div>
-        <div class="blog-meta">birthed on <span id="date-time"></span></div>
-        <div class="blog-content">
+            <div class="blog-content">
             <p>today I woke up 3pm</p>
         </div>
     </div>
 <div class="blog-container">
         <div class="blog-title">another life update </div>
-        <div class="blog-meta">birthed on <span id="date-time"></span></div>
-        <div class="blog-content">
+            <div class="blog-content">
             <p>why won't this work</p>
         </div>
     </div>
-    <script>
-        // JavaScript to set current date and time
-        const now = new Date();
-        document.getElementById("date-time").textContent = now.toLocaleString();
-    </script>
-</body>
+  </body>
 </html>
