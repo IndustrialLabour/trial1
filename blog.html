@@ -28,9 +28,10 @@
      
         }
         .blog-container {
-            max-width: 600px;
+            max-width: 500px;
             background: white;
             padding: 50px;
+            margin: 60px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -51,6 +52,7 @@
     </style>
 </head>
 <body>
+    <script>
     <div class="blog-container">
         <div class="blog-title">major life update </div>
         <div class="blog-meta">birthed on <span id="date-time"></span></div>
@@ -65,7 +67,6 @@
             <p>why won't this work</p>
         </div>
     </div>
-    <script>
         // JavaScript to set current date and time
         const now = new Date();
         document.getElementById("date-time").textContent = now.toLocaleString();
