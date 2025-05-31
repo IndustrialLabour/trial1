@@ -1,5 +1,5 @@
 body {
-	background-image: url('DSC00500.JPG'); background-position: center center;
+	background-image: url('DSC00500.JPG'); background-position: center;
      	background-attachment: fixed;
   	position: absolute;
         width: 100%;
@@ -10,7 +10,7 @@ body {
         right: 0;
         border: 0;
     	cursor: url('cur.png'), auto;
-	font-family: 'Lato', sans-serif;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
         background-size: cover !important;
         -webkit-background-size: cover !important;
         -moz-background-size: cover !impoertant;
