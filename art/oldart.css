@@ -1,0 +1,55 @@
+.row {
+  column-count: 3;   /* number of columns */
+  column-gap: 15px;  /* space between columns */
+  max-width: 1200px; /* limits how wide the gallery gets */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row img {
+  width: 100%;
+  margin-bottom: 15px;
+  display: block;
+  break-inside: avoid;
+  border-radius: 6px;
+}
+@font-face {
+  font-family: 'BPtypewrite';
+  src: url('/fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  cursor: url('cur.png') 0 0, auto;
+}
+
+a:hover {
+  cursor: url('../cursor/handc.png') 0 0, pointer;
+}
+
+p {
+  align-self: center;  
+  color: yellow;  
+  text-align: center;
+  font-family: 'BPtypewrite', Times New Roman;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  background-color: darkslateblue; 
+  color: gold;
+  font-family: 'BPtypewrite', Times New Roman;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

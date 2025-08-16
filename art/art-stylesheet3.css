@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'BPtypewrite';
+  src: url('/fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  cursor: url('cur.png') 0 0, auto;
+}
+
+a:hover {
+  cursor: url('../cursor/handc.png') 0 0, pointer;
+}
+
+p {
+  align-self: center;  
+  color: red;  
+  text-align: center;
+  font-family: 'BPtypewrite', Times New Roman;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  background-color: red;  
+  color: black;
+  font-family: 'BPtypewrite', Times New Roman;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+a:hover { 
+  color: red;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
