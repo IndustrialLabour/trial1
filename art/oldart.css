@@ -1,7 +1,7 @@
 .row {
-  column-count: 3;   /* number of columns */
-  column-gap: 15px;  /* space between columns */
-  max-width: 1200px; /* limits how wide the gallery gets */
+  column-count: 3;  
+  column-gap: 15px; 
+  max-width: 1200px; 
   margin: 0 auto;
   padding: 20px;
 }
@@ -15,7 +15,7 @@
 }
 @font-face {
   font-family: 'BPtypewrite';
-  src: url('/fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  src: url('./fonts/bptypewrite/BPtypewrite.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -53,3 +53,4 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
