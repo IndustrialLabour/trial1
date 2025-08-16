@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BPtypewrite';
-  src: url('/fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  src: url('./fonts/bptypewrite/BPtypewrite.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,3 +48,4 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
+
