@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BPtypewrite';
-  src: url('./art/fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  src: url('./fonts/bptypewrite/BPtypewrite.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,5 +51,6 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
 
