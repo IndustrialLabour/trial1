@@ -11,7 +11,7 @@ body {
 }
 
 a:hover {
-  cursor: url('../cursor/handc.png') 0 0, pointer;
+  cursor: url('../handc.png') 0 0, pointer;
 }
 
 p {
@@ -51,4 +51,5 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
