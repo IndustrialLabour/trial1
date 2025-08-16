@@ -10,7 +10,8 @@ body {
         right: 0;
         border: 0;
     	cursor: url('cur.png'), auto;
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	    font-size: 30px;
         background-size: cover !important;
         -webkit-background-size: cover !important;
         -moz-background-size: cover !impoertant;
@@ -38,3 +39,4 @@ a:hover {
             width: 100%; 
             text-align: center; 
 }
+
