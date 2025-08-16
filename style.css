@@ -15,10 +15,10 @@ body {
         -webkit-background-size: cover !important;
         -moz-background-size: cover !impoertant;
         opacity: 0.7;
-}
 h1 {
-  color: aliceblue;
   font-family: 'Lato', sans-serif;
+  font-weight: 100; 
+  color: aliceblue;
 }
 a:hover {
   cursor: url('handc.png'), pointer !important; 
@@ -41,5 +41,6 @@ a:hover {
             width: 100%; 
             text-align: center; 
 }
+
 
 
