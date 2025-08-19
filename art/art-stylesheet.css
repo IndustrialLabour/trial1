@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'BPtypewrite';
-  src: url('./fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  font-family: 'BitGameFont';
+  src: url('./BitGameFont.ttf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,6 +51,7 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
