@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: 'BitGameFont';
+  src: url('./BitGameFont.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
 .row {
   column-count: 3;  
   column-gap: 15px; 
@@ -26,7 +33,7 @@ p {
   align-self: center;  
   color: yellow;  
   text-align: center;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -46,6 +53,7 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
