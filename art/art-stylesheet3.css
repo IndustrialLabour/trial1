@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BitGameFont';
-  src: url('./BitGameFont.ttf') format('truetype');
+  src: url('/BitGameFont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -48,4 +48,5 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
+
 
