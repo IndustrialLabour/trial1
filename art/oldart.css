@@ -39,8 +39,8 @@ p {
 }
 
 h1 {
-  background-color: tan; 
-  color: tomato;
+  background-color: white; 
+  color: black;
   font-family: 'BitGameFont', Times New Roman;
   font-size: 30px;
   text-align: center;
@@ -53,6 +53,7 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
