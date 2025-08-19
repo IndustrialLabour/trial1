@@ -34,7 +34,7 @@ p {
 h1 {
   background-color: darkslateblue; 
   color: gold;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -46,6 +46,7 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
