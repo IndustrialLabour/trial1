@@ -1,10 +1,9 @@
 @font-face {
-  font-family: 'BPtypewrite';
-  src: url('./fonts/bptypewrite/BPtypewrite.otf') format('opentype');
+  font-family: 'BitGameFont';
+  src: url('./BitGameFont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 
 body {
   cursor: url('cur.png') 0 0, auto;
@@ -48,4 +47,5 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
+
 
