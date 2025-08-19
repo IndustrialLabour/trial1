@@ -39,7 +39,7 @@ p {
 }
 
 h1 {
-  background-color: lightgreen; 
+  background-color: tan; 
   color: tomato;
   font-family: 'BitGameFont', Times New Roman;
   font-size: 30px;
@@ -53,6 +53,7 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
