@@ -11,7 +11,7 @@ p {
   align-self: center;  
   color: blue;  
   text-align: center;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -19,7 +19,7 @@ p {
 h1 {
   background-color: blue;  
   color: black;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -41,6 +41,7 @@ a:hover {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
