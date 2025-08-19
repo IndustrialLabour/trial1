@@ -39,7 +39,7 @@ a:visited {
   color: mediumslateblue;
 }
 a:hover { 
-  color: sandybrown;
+  color: deeppink;
 }
 a:active {
   color: tan;
@@ -51,6 +51,7 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
