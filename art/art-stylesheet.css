@@ -36,10 +36,10 @@ a:link {
   color: crimson;
 }
 a:visited {
-  color: darkolivegreen;
+  color: mediumslateblue;
 }
 a:hover { 
-  color: lemonchiffon;
+  color: sandybrown;
 }
 a:active {
   color: tan;
@@ -51,6 +51,7 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
