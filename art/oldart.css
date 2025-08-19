@@ -13,13 +13,6 @@
   break-inside: avoid;
   border-radius: 6px;
 }
-@font-face {
-  font-family: 'BitGameFont';
-  src: url('./BitGameFont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 body {
   cursor: url('cur.png') 0 0, auto;
@@ -53,5 +46,6 @@ h1 {
   margin-right: auto;
   width: 50%;
 }
+
 
 
