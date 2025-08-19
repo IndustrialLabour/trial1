@@ -1,4 +1,11 @@
 
+@font-face {
+  font-family: 'BitGameFont';
+  src: url('./BitGameFont.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   cursor: url('cur.png') 0 0, auto;
 }
@@ -11,7 +18,7 @@ p {
   align-self: center;  
   color: hotpink;  
   text-align: center;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -19,7 +26,7 @@ p {
 h1 {
   background-color: yellow;  
   color: black;
-  font-family: 'BPtypewrite', Times New Roman;
+  font-family: 'BitGameFont', Times New Roman;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -44,6 +51,7 @@ a:active {
   margin-right: auto;
   width: 50%;
 }
+
 
 
 
